@@ -1,0 +1,12 @@
+#!/bin/bash
+#rm -rf OUT/*
+HOMEDIR="/home/cp451/REVISION3/ZERO_DEV_STRESS/DECLUTTER/"
+IFS=$'\n'
+for CODEDIR in $(ls -d $HOMEDIR/*/)
+do
+    gfortran ${CODEDIR}grav3d.f -o ${CODEDIR}grav3d
+done
+#read -rsp $'Press any key to continue...\n' -n 1 key
+#${CODEDIR}grav3d > check.out
+#plot
+

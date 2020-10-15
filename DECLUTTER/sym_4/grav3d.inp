@@ -1,0 +1,14 @@
+15000.		dx
+15000.		dy
+4.5		f
+-150000.	E*
+1.e22 6.e11		A
+0.26		intang (in rads)
+0		predif (in Ma x 10)
+1.		ple
+7273.		sinit (+smin)
+1.e22		visval
+0.		erodek
+-1.e11		F0 (N (/m), force p.u.l. on x=0, positive outwards/expansional)
+-1.e11		F1 (N (/m), force p.u.l. on x=xmax)
+-1.e11		F2 (N (/m), force p.u.l. on y=ymax)
